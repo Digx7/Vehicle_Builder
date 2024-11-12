@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/SaveEditor.uss?fileID=7433441132597879392&amp;guid=1c74e9035a4deb047ba5694a2cbd39d3&amp;type=3#SaveEditor" />
+    <ui:VisualElement name="TopBar" style="flex-grow: 1; min-height: auto; max-height: none; flex-direction: row; min-width: 100%; justify-content: space-between; align-self: auto;">
+        <ui:Button text="New" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NewButton" />
+        <ui:Button text="Refresh" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RefreshButton" style="align-self: auto; justify-content: flex-start; align-items: auto;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Split" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="LeftPlane" style="flex-grow: 1; width: 50%; max-width: 50%; min-width: 50%; max-height: 100%; min-height: 100%;">
+            <ui:ListView focusable="true" name="AllSavesList" style="min-height: 100%; max-height: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="RightPlane" style="flex-grow: 1; max-width: 50%; min-width: 50%; max-height: 100%; min-height: 100%; align-self: flex-end; width: 50%;">
+            <ui:ListView focusable="true" name="SaveDetails" style="min-height: 100%; max-height: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

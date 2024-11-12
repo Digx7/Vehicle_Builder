@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playlist:
   - name: 
-    clip: {fileID: 8300000, guid: d002c07b61d148849bfe8456e99b2b34, type: 3}
+    clip: {fileID: 8300000, guid: 3a5dc4bef10d522499ed333f1428f000, type: 3}
 --- !u!81 &8515635749278376474
 AudioListener:
   m_ObjectHideFlags: 0

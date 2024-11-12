@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class MainMenuMode : GameMode
 {
+    // Run when the gamemode is loaded
     public override void Setup()
     {
-        UI_WidgetManager.Instance.TryLoadWidget("TitleCard","TitleCard");
-        UI_WidgetManager.Instance.TryLoadWidget("BuildNumber","BuildNumber");
 
         base.Setup();
     }
 
+    // Run when the gamemode is unloaded
     public override void TearDown()
     {
-
 
         base.TearDown();
     }

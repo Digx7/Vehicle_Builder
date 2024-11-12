@@ -30,11 +30,6 @@ public class GameMode : GenericSingleton<GameMode>
         characters = new List<NamedPlayerObject>();
     }
 
-    private void Start()
-    {
-        // Setup();
-    }
-
     public virtual void Setup()
     {
         
